@@ -1,18 +1,22 @@
-body{
+body {
     padding: 0;
     margin: 0;
     background-color: #f7f6f6;
-    
+
 }
-.bold{
+
+.bold {
     font-weight: bold;
 }
-.colorgray{
+
+.colorgray {
     color: #999999;
 }
-.colorpurple{
+
+.colorpurple {
     color: #7C4EE4 !important;
 }
+
 .registerBtn {
     background-color: #7C4EE4;
     border: 1px solid #7C4EE4;
@@ -22,10 +26,11 @@ body{
     border-radius: 2.78px;
 }
 
-.herorow{
+.herorow {
     background-color: #7C4EE4;
 }
-.bgimg{
+
+.bgimg {
     background-image: url(img/lines.png);
     background-repeat: no-repeat;
     background-position: top;
@@ -38,68 +43,77 @@ body{
     top: -40px;
     right: 970px;
     border-radius: 100px;
-    
+
 }
-.menrow{
+
+.menrow {
     position: absolute;
     bottom: -150px;
     right: 4% !important;
 
 }
-.menrow-sm{
- display: none;
+
+.menrow-sm {
+    display: none;
 }
 
-.men-1-row{
+.men-1-row {
     position: relative;
 }
 
-.Recent{
+.Recent {
     margin-top: 180px !important;
 }
-.readmore{
+
+.readmore {
     text-decoration: underline;
 }
-.storyinp{
+
+.storyinp {
     width: 32% !important;
-    
+
 }
-.storyinp input{
+
+.storyinp input {
     border: none;
     outline: none;
 }
-.storyinp button{
+
+.storyinp button {
     border: 1px solid white;
 }
 
-.story{
+.story {
     position: relative;
-    
+
 }
 
-.storybg{
-   left: -130px !important;
+.storybg {
+    left: -130px !important;
 }
-.ftul li{
-        list-style: none;
-        
+
+.ftul li {
+    list-style: none;
+
 }
-.ftul ul{
+
+.ftul ul {
     padding-left: 0px !important;
     width: 25%;
 }
 
 
-.ft-plat-icon{
+.ft-plat-icon {
     width: 40px;
     height: 40px;
     background-color: #7C4EE4;
 }
 
-.ft-plat-icon-main{
-    width: 25% ;
+.ft-plat-icon-main {
+    width: 25%;
 }
-.ft-line{
+
+.ft-line {
     height: 3px;
     background-color: #999999;
 }
@@ -128,64 +142,74 @@ body{
 
 
 
-@media only screen and (max-width: 1200px){
-    .bgimg{
+@media only screen and (max-width: 1200px) {
+    .bgimg {
         display: none;
     }
-    .storyinp{
-    width: 38% !important;
+
+    .storyinp {
+        width: 38% !important;
     }
-    
+
 }
 
-@media only screen and (max-width: 992px){
-  .storyinp{
-    width: 50% !important;
+@media only screen and (max-width: 992px) {
+    .storyinp {
+        width: 50% !important;
     }
-    .ftul ul{
+
+    .ftul ul {
         width: 39% !important;
     }
 }
 
 
 
-@media only screen and (max-width: 768px){
-    .menrow-sm{
+@media only screen and (max-width: 768px) {
+    .menrow-sm {
         display: block;
 
     }
-    .menrow-lg, .menimg{
-        display: none;
-    }
-    .men-2-row{
+
+    .menrow-lg,
+    .menimg {
         display: none;
     }
 
-    .Recent{
+    .men-2-row {
+        display: none;
+    }
+
+    .Recent {
         margin-top: 30px !important;
         margin-bottom: 30px !important;
     }
-    .storyinp{
-    width: 70% !important;
+
+    .storyinp {
+        width: 70% !important;
     }
-    .ftul ul{
+
+    .ftul ul {
         width: 49% !important;
     }
-    .ft-plat-icon-main{
-    width: 40% ;
-}
+
+    .ft-plat-icon-main {
+        width: 40%;
+    }
 }
 
-@media only screen and (max-width: 558px){
-      .storyinp{
-    width: 74% !important;
-    flex-direction: column !important;
+@media only screen and (max-width: 558px) {
+    .storyinp {
+        width: 74% !important;
+        flex-direction: column !important;
     }
-    .storyinp button{
+
+    .storyinp button {
         width: 67% !important;
         margin-top: 5px !important;
     }
-    .ftul ul{
+
+    .ftul ul {
         width: 59% !important;
     }
 }
