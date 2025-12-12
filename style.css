@@ -179,6 +179,11 @@ body{
 @media only screen and (max-width: 558px){
       .storyinp{
     width: 74% !important;
+    flex-direction: column !important;
+    }
+    .storyinp button{
+        width: 67% !important;
+        margin-top: 5px !important;
     }
     .ftul ul{
         width: 59% !important;
