@@ -3,15 +3,93 @@ body{
     margin: 0;
     background-color: #f7f6f6;
 }
-.colorgray{
-    color: #9E9DA2;
-}
-.colorgreen{
-    color: #75BF7A;
-}
-.colorgreenbg{
-    background-color: #75BF7A;
-}
 .bold{
     font-weight: bold;
+}
+.colorgray{
+    color: #999999;
+}
+.colorpurple{
+    color: #7C4EE4 !important;
+}
+.registerBtn {
+    background-color: #7C4EE4;
+    border: 1px solid #7C4EE4;
+    height: 39.49px;
+    width: 130.25px;
+    color: #fff;
+    border-radius: 2.78px;
+}
+
+.herorow{
+    background-color: #7C4EE4;
+}
+.bgimg{
+    background-image: url(img/lines.png);
+    background-repeat: no-repeat;
+    background-position: top;
+    width: 70%;
+    height: 100%;
+    position: absolute;
+    top: -40px;
+    right: 490px;
+    border-radius: 100px;
+    
+}
+.menrow{
+    position: relative;
+    top: -260px;
+    right: 5% !important;
+
+}
+.menrow-sm{
+ display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 1200px){
+    .bgimg{
+        display: none;
+    }
+    
+
+}
+
+@media only screen and (max-width: 768px){
+    .menrow-sm{
+        display: block;
+
+    }
+    .menrow-lg, .menimg{
+        display: none;
+    }
+    .men-2-row{
+        display: none;
+    }
 }
