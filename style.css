@@ -1,0 +1,17 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: #f7f6f6;
+}
+.colorgray{
+    color: #9E9DA2;
+}
+.colorgreen{
+    color: #75BF7A;
+}
+.colorgreenbg{
+    background-color: #75BF7A;
+}
+.bold{
+    font-weight: bold;
+}
